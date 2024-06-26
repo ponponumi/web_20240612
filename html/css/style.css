@@ -4,3 +4,15 @@ div,p{
   font-size: 1rem;
   background-color: #ff0;
 }
+
+.list{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: green;
+}
+
+.list .item{
+  width: calc(100% / 3);
+  height: 60px;
+}
